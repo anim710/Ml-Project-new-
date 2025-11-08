@@ -3,5 +3,5 @@
   "batch": 8,
   "rounds": 8,
   "clients": 3,
-  "local_epochs": 4
+  "local_epochs": 8
 }
