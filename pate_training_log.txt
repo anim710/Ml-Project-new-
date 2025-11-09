@@ -1,5 +1,5 @@
 ======================================================================
-PATE-FL STARTED @ 2025-11-07 10:52:15
+PATE-FL STARTED @ 2025-11-08 22:49:48
 HP → {'lr': 1e-05, 'batch': 8, 'rounds': 8, 'clients': 3, 'local_epochs': 8}
 ======================================================================
 
@@ -8,144 +8,144 @@ HP → {'lr': 1e-05, 'batch': 8, 'rounds': 8, 'clients': 3, 'local_epochs': 8}
 [TEACHERS] 8 rounds
 
 ROUND 1/8
-  → Val Acc: 0.8571 | F1: 1.0000
+  → Val Acc: 0.8571 | F1: 0.8571
 
 ROUND 2/8
-  → Val Acc: 0.8580 | F1: 1.0000
+  → Val Acc: 0.8580 | F1: 0.8580
 
 ROUND 3/8
-  → Val Acc: 0.8599 | F1: 1.0000
+  → Val Acc: 0.8599 | F1: 0.8599
 
 ROUND 4/8
-  → Val Acc: 0.8579 | F1: 1.0000
+  → Val Acc: 0.8579 | F1: 0.8579
 
 ROUND 5/8
-  → Val Acc: 0.8607 | F1: 1.0000
+  → Val Acc: 0.8607 | F1: 0.8607
 
 ROUND 6/8
-  → Val Acc: 0.8587 | F1: 1.0000
+  → Val Acc: 0.8587 | F1: 0.8587
 
 ROUND 7/8
-  → Val Acc: 0.8620 | F1: 1.0000
+  → Val Acc: 0.8620 | F1: 0.8620
 
 ROUND 8/8
-  → Val Acc: 0.8627 | F1: 1.0000
+  → Val Acc: 0.8627 | F1: 0.8627
 
 [PATE] Generating soft labels for 3499 samples
 
 [STUDENT] Distillation on 3499 soft-labeled samples (12 epochs)
-  → Epoch 1/12 | KL Loss: 0.0706
-  → Epoch 2/12 | KL Loss: 0.0487
-  → Epoch 3/12 | KL Loss: 0.0716
-  → Epoch 4/12 | KL Loss: 0.0619
-  → Epoch 5/12 | KL Loss: 0.0466
-  → Epoch 6/12 | KL Loss: 0.0402
-  → Epoch 7/12 | KL Loss: 0.0316
-  → Epoch 8/12 | KL Loss: 0.0257
-  → Epoch 9/12 | KL Loss: 0.0281
-  → Epoch 10/12 | KL Loss: 0.0218
-  → Epoch 11/12 | KL Loss: 0.0175
-  → Epoch 12/12 | KL Loss: 0.0165
+  → Epoch 1/12 | KL Loss: 0.0737
+  → Epoch 2/12 | KL Loss: 0.0524
+  → Epoch 3/12 | KL Loss: 0.0754
+  → Epoch 4/12 | KL Loss: 0.0650
+  → Epoch 5/12 | KL Loss: 0.0548
+  → Epoch 6/12 | KL Loss: 0.0436
+  → Epoch 7/12 | KL Loss: 0.0371
+  → Epoch 8/12 | KL Loss: 0.0323
+  → Epoch 9/12 | KL Loss: 0.0279
+  → Epoch 10/12 | KL Loss: 0.0266
+  → Epoch 11/12 | KL Loss: 0.0196
+  → Epoch 12/12 | KL Loss: 0.0170
 
-FOLD 1 TEST → Acc: 0.8631 | F1: 1.0000
+FOLD 1 TEST → Acc: 0.8612 | F1: 0.8612
 
 ========================= FOLD 2/3 =========================
 
 [TEACHERS] 8 rounds
 
 ROUND 1/8
-  → Val Acc: 0.8659 | F1: 1.0000
+  → Val Acc: 0.8659 | F1: 0.8659
 
 ROUND 2/8
-  → Val Acc: 0.8671 | F1: 1.0000
+  → Val Acc: 0.8671 | F1: 0.8671
 
 ROUND 3/8
-  → Val Acc: 0.8670 | F1: 1.0000
+  → Val Acc: 0.8670 | F1: 0.8670
 
 ROUND 4/8
-  → Val Acc: 0.8685 | F1: 1.0000
+  → Val Acc: 0.8685 | F1: 0.8685
 
 ROUND 5/8
-  → Val Acc: 0.8669 | F1: 1.0000
+  → Val Acc: 0.8669 | F1: 0.8669
 
 ROUND 6/8
-  → Val Acc: 0.8699 | F1: 1.0000
+  → Val Acc: 0.8699 | F1: 0.8699
 
 ROUND 7/8
-  → Val Acc: 0.8687 | F1: 1.0000
+  → Val Acc: 0.8687 | F1: 0.8687
 
 ROUND 8/8
-  → Val Acc: 0.8683 | F1: 1.0000
+  → Val Acc: 0.8701 | F1: 0.8700
 
 [PATE] Generating soft labels for 3499 samples
 
 [STUDENT] Distillation on 3499 soft-labeled samples (12 epochs)
-  → Epoch 1/12 | KL Loss: 0.0752
-  → Epoch 2/12 | KL Loss: 0.0611
-  → Epoch 3/12 | KL Loss: 0.0710
-  → Epoch 4/12 | KL Loss: 0.0585
-  → Epoch 5/12 | KL Loss: 0.0573
-  → Epoch 6/12 | KL Loss: 0.0442
-  → Epoch 7/12 | KL Loss: 0.0355
-  → Epoch 8/12 | KL Loss: 0.0311
-  → Epoch 9/12 | KL Loss: 0.0282
-  → Epoch 10/12 | KL Loss: 0.0249
-  → Epoch 11/12 | KL Loss: 0.0181
-  → Epoch 12/12 | KL Loss: 0.0210
+  → Epoch 1/12 | KL Loss: 0.0718
+  → Epoch 2/12 | KL Loss: 0.0549
+  → Epoch 3/12 | KL Loss: 0.0646
+  → Epoch 4/12 | KL Loss: 0.0683
+  → Epoch 5/12 | KL Loss: 0.0582
+  → Epoch 6/12 | KL Loss: 0.0433
+  → Epoch 7/12 | KL Loss: 0.0356
+  → Epoch 8/12 | KL Loss: 0.0377
+  → Epoch 9/12 | KL Loss: 0.0310
+  → Epoch 10/12 | KL Loss: 0.0266
+  → Epoch 11/12 | KL Loss: 0.0226
+  → Epoch 12/12 | KL Loss: 0.0186
 
-FOLD 2 TEST → Acc: 0.8576 | F1: 1.0000
+FOLD 2 TEST → Acc: 0.8617 | F1: 0.8617
 
 ========================= FOLD 3/3 =========================
 
 [TEACHERS] 8 rounds
 
 ROUND 1/8
-  → Val Acc: 0.8601 | F1: 1.0000
+  → Val Acc: 0.8601 | F1: 0.8601
 
 ROUND 2/8
-  → Val Acc: 0.8598 | F1: 1.0000
+  → Val Acc: 0.8598 | F1: 0.8598
 
 ROUND 3/8
-  → Val Acc: 0.8608 | F1: 1.0000
+  → Val Acc: 0.8608 | F1: 0.8608
 
 ROUND 4/8
-  → Val Acc: 0.8621 | F1: 1.0000
+  → Val Acc: 0.8629 | F1: 0.8629
 
 ROUND 5/8
-  → Val Acc: 0.8622 | F1: 1.0000
+  → Val Acc: 0.8611 | F1: 0.8611
 
 ROUND 6/8
-  → Val Acc: 0.8608 | F1: 1.0000
+  → Val Acc: 0.8618 | F1: 0.8618
 
 ROUND 7/8
-  → Val Acc: 0.8623 | F1: 1.0000
+  → Val Acc: 0.8621 | F1: 0.8621
 
 ROUND 8/8
-  → Val Acc: 0.8628 | F1: 1.0000
+  → Val Acc: 0.8632 | F1: 0.8632
 
 [PATE] Generating soft labels for 3500 samples
 
 [STUDENT] Distillation on 3500 soft-labeled samples (12 epochs)
-  → Epoch 1/12 | KL Loss: 0.0803
-  → Epoch 2/12 | KL Loss: 0.0569
-  → Epoch 3/12 | KL Loss: 0.0728
-  → Epoch 4/12 | KL Loss: 0.0562
-  → Epoch 5/12 | KL Loss: 0.0514
-  → Epoch 6/12 | KL Loss: 0.0426
-  → Epoch 7/12 | KL Loss: 0.0338
-  → Epoch 8/12 | KL Loss: 0.0310
-  → Epoch 9/12 | KL Loss: 0.0275
-  → Epoch 10/12 | KL Loss: 0.0227
-  → Epoch 11/12 | KL Loss: 0.0208
-  → Epoch 12/12 | KL Loss: 0.0184
+  → Epoch 1/12 | KL Loss: 0.0752
+  → Epoch 2/12 | KL Loss: 0.0507
+  → Epoch 3/12 | KL Loss: 0.0619
+  → Epoch 4/12 | KL Loss: 0.0600
+  → Epoch 5/12 | KL Loss: 0.0453
+  → Epoch 6/12 | KL Loss: 0.0425
+  → Epoch 7/12 | KL Loss: 0.0366
+  → Epoch 8/12 | KL Loss: 0.0339
+  → Epoch 9/12 | KL Loss: 0.0258
+  → Epoch 10/12 | KL Loss: 0.0232
+  → Epoch 11/12 | KL Loss: 0.0206
+  → Epoch 12/12 | KL Loss: 0.0192
 
-FOLD 3 TEST → Acc: 0.8535 | F1: 1.0000
+FOLD 3 TEST → Acc: 0.8552 | F1: 0.8551
 
 ======================================================================
 FINAL RESULTS
 ======================================================================
-  Accuracy : 0.8580 ± 0.0039
-  F1-Score : 1.0000 ± 0.0000
+  Accuracy : 0.8594 ± 0.0030
+  F1-Score : 0.8593 ± 0.0030
   Privacy  : ε ≈ 3.5, δ = 1e-5
 ======================================================================
 Saved: pate_results.json | Log: pate_training_log.txt
